@@ -4860,8 +4860,6 @@ function FindProxyForURL(url, host) {
 		  shExpMatch(host, "*.yabuka.com") ||
 		  shExpMatch(host, "yadro.ru") ||
 		  shExpMatch(host, "*.yadro.ru") ||
-		  shExpMatch(host, "yceml.net") ||
-		  shExpMatch(host, "*.yceml.net") ||
 		  shExpMatch(host, "yesads.com") ||
 		  shExpMatch(host, "*.yesads.com") ||
 		  shExpMatch(host, "yesadvertising.com") ||
@@ -4908,7 +4906,7 @@ function FindProxyForURL(url, host) {
 		  shExpMatch(host, "*.zmedia.com") ||
 		  shExpMatch(host, "adserver.*")
 		) {
-		return "PROXY ny.accesstunnel.net:8080";
+		return "PROXY ny.accesstunnel.net:8060";
 		}
 	else {
 		return "HTTPS ny.accesstunnel.net:44300";

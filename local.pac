@@ -4860,8 +4860,6 @@ function FindProxyForURL(url, host) {
 		  shExpMatch(host, "*.yabuka.com") ||
 		  shExpMatch(host, "yadro.ru") ||
 		  shExpMatch(host, "*.yadro.ru") ||
-		  shExpMatch(host, "yceml.net") ||
-		  shExpMatch(host, "*.yceml.net") ||
 		  shExpMatch(host, "yesads.com") ||
 		  shExpMatch(host, "*.yesads.com") ||
 		  shExpMatch(host, "yesadvertising.com") ||
