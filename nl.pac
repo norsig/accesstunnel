@@ -4906,7 +4906,7 @@ function FindProxyForURL(url, host) {
 		  shExpMatch(host, "*.zmedia.com") ||
 		  shExpMatch(host, "adserver.*")
 		) {
-		return "PROXY nl.accesstunnel.net:8060";
+		return "HTTPS nl.accesstunnel.net:8060";
 		}
 	else {
 		return "HTTPS nl.accesstunnel.net:44300";
