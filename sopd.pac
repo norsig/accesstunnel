@@ -4906,7 +4906,7 @@ function FindProxyForURL(url, host) {
 		  shExpMatch(host, "*.zmedia.com") ||
 		  shExpMatch(host, "adserver.*")
 		) {
-		return "HTTP sopd.accesstunnel.net:8060";
+		return "HTTPS sopd.accesstunnel.net:8060";
 		}
 	if (dnsDomainIs(host, ".accesstunnel.net") ||
         	shExpMatch(host, "(*.accesstunnel.net|accesstunnel.net)") ||
